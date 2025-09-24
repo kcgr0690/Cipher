@@ -11,3 +11,5 @@ I used VS code to make this project, and I took quite a bit of time googling how
 
 What I struggled with:
 As mentioned before, I struggled a bit with the dictionary, but I am pleased to say that python sytax is much more forgiving than Java for the most part. I learned how to use dictionaries, define functions, and call functions in python.
+
+(Note, I created the github repo an hour after I created the code so hackatime marked about an hour of this coding time as unknown)
