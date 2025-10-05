@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from cipher import encode, decode
+from Cipher import encode, decode
 
 app = Flask(name)
 
