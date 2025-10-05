@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from Cipher import encode, decode
 
-app = Flask(name)
+app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
@@ -17,5 +17,5 @@ def home():
             result = decode(input_text)
     return render_template('index.html', result=result, mode=mode, input_text=input_text)
 
-if name == 'main':
+if __name__ == 'main':
     app.run()
